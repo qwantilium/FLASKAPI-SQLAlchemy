@@ -47,7 +47,11 @@ python app.py
 ```
 API Resource Endpoints
 URL Prefix = http://sample_domain/ where sample domain is the root URL of the server HOST.
-| EndPoint | Functionality  | Access  |
+| EndPoint | Functionality  |
 |---|---|---|
-|   |   |   |
-|   |   |   |
+| GET / | Get List of Books  |   
+|  POST | Post One New Book  |   
+| GET  | Get One Certain Book  |   
+|  DELETE | Delete One Certain Book  |   
+| PUT |  Reenw One Certain Book |   
+
