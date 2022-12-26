@@ -49,9 +49,9 @@ API Resource Endpoints
 URL Prefix = http://sample_domain/ where sample domain is the root URL of the server HOST.
 | EndPoint | Functionality  |
 |---|---|
-| GET / | Get List of Books  |   
-|  POST /| Post One New Book  |   
-| GET /<id> | Get One Certain Book  |   
-|  DELETE /<id> | Delete One Certain Book  |   
-| PUT  /<id>|  Reenw One Certain Book |   
+| **GET** `/` | Get List of Books  |   
+|  **POST** `/`| Post One New Book  |   
+| **GET** `/<int:book_id>` | Get One Certain Book  |   
+|  **DELETE** `/<int:book_id>` | Delete One Certain Book  |   
+| **PUT**  `/<int:book_id>`|  Renew One Certain Book |   
 
