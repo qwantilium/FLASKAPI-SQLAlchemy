@@ -45,3 +45,9 @@ cd FLASKAPI-SQLAlchemy
 ```
 python app.py
 ```
+API Resource Endpoints
+URL Prefix = http://sample_domain/ where sample domain is the root URL of the server HOST.
+| EndPoint | Functionality  | Access  |
+|---|---|---|
+|   |   |   |
+|   |   |   |
